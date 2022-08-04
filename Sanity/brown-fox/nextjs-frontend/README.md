@@ -1,34 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a Personal Portfolio Website
+Made using Nextjs and sanity in backend for blog content of the website 
+Website contains all the information related to the author
 
-## Getting Started
+Site is live at : https://personal-portfoliowebsite-lok.herokuapp.com/
 
-First, run the development server:
+Demo Video : 
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+https://user-images.githubusercontent.com/93420193/182869116-b9cc1a94-a4f4-4bb4-9f3b-78225640b4de.mp4
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Demo Images : 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<img width="960" alt="port1" src="https://user-images.githubusercontent.com/93420193/182869196-a4b13f00-29e6-4da5-ade7-a2fbde4cacdd.png">
+<img width="960" alt="port2" src="https://user-images.githubusercontent.com/93420193/182869201-8392f0df-cac3-4705-90e8-a6bf4db7206a.png">
+<img width="960" alt="port4" src="https://user-images.githubusercontent.com/93420193/182869228-d7f33988-67e8-4cae-a846-182bb6f29c92.png">
+<img width="960" alt="port5" src="https://user-images.githubusercontent.com/93420193/182869234-0d41b73d-1374-4f35-8044-abb7bc4b6b75.png">
+<img width="960" alt="port6" src="https://user-images.githubusercontent.com/93420193/182869241-a883a708-feb2-440d-abfb-f110096a490c.png">
+<img width="960" alt="port7" src="https://user-images.githubusercontent.com/93420193/182869249-628734fe-f62c-474b-8f2b-8acbff997460.png">
+<img width="960" alt="port10" src="https://user-images.githubusercontent.com/93420193/182869264-1e7fb271-bf63-496a-840e-292707c51a19.png">
