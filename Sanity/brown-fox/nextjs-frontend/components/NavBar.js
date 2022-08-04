@@ -2,6 +2,7 @@ import { createClient } from "next-sanity";
 import { useRouter } from "next/router";
 import imageUrlBuilder from "@sanity/image-url";
 import { useEffect } from "react";
+import Link from "next/link";
 
 export const NavBar = () => {
   const router = useRouter();
@@ -20,50 +21,50 @@ export const NavBar = () => {
       <div className="w-full z-50 top-0 py-3 sm:py-5  absolute  bg-gradient-to-r from-cyan-600 to-blue-600">
         <div className="container flex items-center justify-between">
           <div>
-            <a href="/">
+            <Link href="/">
               <h2 className="text-white text-2xl font-bold">Lokesh Melkani</h2>
-            </a>
+            </Link>
           </div>
           <div className="hidden lg:block">
             <ul className="flex items-center">
               <li className="group pl-6">
-                <a href="/#about">
+                <Link href="/#about">
                   <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">
                     About
                   </span>
-                </a>
+                </Link>
                 <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
               </li>
               <li className="group pl-6">
-                <a href="/#services">
+                <Link href="/#services">
                   <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">
                     Services
                   </span>
-                </a>
+                </Link>
                 <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
               </li>
               <li className="group pl-6">
-                <a href="/#portfolio">
+                <Link href="/#portfolio">
                   <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">
                     Portfolio
                   </span>
-                </a>
+                </Link>
                 <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
               </li>
               <li className="group pl-6">
-                <a href="/#blog">
+                <Link href="/#blog">
                   <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">
                     Blog
                   </span>
-                </a>
+                </Link>
                 <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
               </li>
               <li className="group pl-6">
-                <a href="/#contact">
+                <Link href="/#contact">
                   <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">
                     Contact
                   </span>
-                </a>
+                </Link>
                 <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
               </li>
             </ul>

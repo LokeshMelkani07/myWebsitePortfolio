@@ -25,7 +25,7 @@ const Post = ({ blog }) => {
         <Head>
           <meta charset="utf-8" />
 
-          <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+          <meta content="IE=edge,chrome=1" httpEquiv="X-UA-Compatible" />
 
           <meta
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -60,7 +60,7 @@ const Post = ({ blog }) => {
           <meta name="twitter:site" content="@tailwindmade" />
 
           <link
-            crossorigin="crossorigin"
+            crossOrigin="crossOrigin"
             href="https://fonts.gstatic.com"
             rel="preconnect"
           />
@@ -82,7 +82,7 @@ const Post = ({ blog }) => {
           />
 
           <link
-            crossorigin="anonymous"
+            crossOrigin="anonymous"
             href="/assets/styles/main.min.css"
             media="screen"
             rel="stylesheet"

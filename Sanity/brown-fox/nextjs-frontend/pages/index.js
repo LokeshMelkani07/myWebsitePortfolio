@@ -34,7 +34,7 @@ export default function Home({ blogs, profile }) {
         <Script src="/assets/js/main.js"></Script>
         <Head>
           <meta charset="utf-8" />
-          <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+          <meta content="IE=edge,chrome=1" httpEquiv="X-UA-Compatible" />
           <meta
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
             name="viewport"
@@ -52,7 +52,7 @@ export default function Home({ blogs, profile }) {
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="@tailwindmade" />
           <link
-            crossorigin="crossorigin"
+            crossOrigin="crossOrigin"
             href="https://fonts.gstatic.com"
             rel="preconnect"
           />
@@ -70,7 +70,7 @@ export default function Home({ blogs, profile }) {
             rel="stylesheet"
           />
           <link
-            crossorigin="anonymous"
+            crossOrigin="anonymous"
             href="/assets/styles/main.min.css"
             media="screen"
             rel="stylesheet"
@@ -87,20 +87,20 @@ export default function Home({ blogs, profile }) {
         <div className="w-full z-50 top-0 py-3 sm:py-5  absolute  bg-gradient-to-r from-cyan-600 to-blue-600">
           <div className="container flex items-center justify-between">
             <div>
-              <a href="/">
+              <Link href="/">
                 <h2 className="text-white text-2xl font-bold">
                   {profile.title}
                 </h2>
-              </a>
+              </Link>
             </div>
             <div className="hidden lg:block">
               <ul className="flex items-center">
                 <li className="group pl-6">
-                  <a href="/#about">
+                  <Link href="/#about">
                     <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white">
                       About
                     </span>
-                  </a>
+                  </Link>
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-yellow"></span>
                 </li>
                 <li className="group pl-6">
@@ -225,12 +225,13 @@ export default function Home({ blogs, profile }) {
                 </div>
                 <div className="pt-8 sm:pt-10 lg:pl-8 lg:pt-0">
                   <h1 className="text-center font-header text-4xl text-white sm:text-left sm:text-5xl md:text-6xl">
-                    Hello I'm <span className="text-black">{profile.name}</span>
+                    Hello I am
+                    <span className="text-black">{profile.name}</span>
                   </h1>
                   <div className="flex flex-col justify-center pt-3 sm:flex-row sm:pt-5 lg:justify-start">
                     <div className="flex items-center justify-center pl-0 sm:justify-start md:pl-1">
                       <p className="font-body text-lg uppercase text-white">
-                        Let's connect
+                        Let us connect
                       </p>
                       <div className="hidden sm:block">
                         <i className="bx bx-chevron-right text-3xl text-yellow"></i>
@@ -279,7 +280,7 @@ export default function Home({ blogs, profile }) {
                   Who am I?
                 </h2>
                 <h4 className="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-                  I'm Lokesh Melkani, a Web Developer & Enginnering
+                  I am Lokesh Melkani, a Web Developer & Enginnering
                   Undergraduate
                 </h4>
                 <p className="pt-6 font-body leading-relaxed text-grey-20">
@@ -411,7 +412,7 @@ export default function Home({ blogs, profile }) {
 
           <div className="container py-16 md:py-20" id="services">
             <h2 className="text-center font-header text-4xl font-semibold uppercase text-orange-500 sm:text-5xl lg:text-6xl">
-              Here's what I'm good at
+              Here is what I am good at
             </h2>
             <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
               My Skills
@@ -686,7 +687,7 @@ export default function Home({ blogs, profile }) {
 
           <div className="container py-16 md:py-20" id="contact">
             <h2 className="text-center font-header text-4xl font-semibold uppercase text-orange-500 sm:text-5xl lg:text-6xl">
-              Here's a contact form
+              Here is a contact form
             </h2>
             <h4 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
               Ask Me Anything
